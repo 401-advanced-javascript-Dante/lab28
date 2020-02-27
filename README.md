@@ -6,11 +6,10 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-Dante/lab27/pull/1)
-- [ci/cd](https://github.com/401-advanced-javascript-Dante/lab27/pull/1/checks?check_run_id=467615573) (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-Dante/lab28/pull/1)
+- [ci/cd](https://github.com/401-advanced-javascript-Dante/lab28/actions/runs/45853368) (GitHub Actions)
 
 - [front-end application](https://401-advanced-javascript-dante.github.io/lab27/) (GitHub Pages)
-- [front-end application](https://lucid-hypatia-530d36.netlify.com) (Netlify)
 
 
 ### Setup
