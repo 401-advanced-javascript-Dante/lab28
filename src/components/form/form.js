@@ -28,7 +28,7 @@ class Form extends React.Component {
       if(this.state.option === 'get'){
         let response = await fetch(this.state.api);
         let data = await response.json();
-        this.props.update(data);
+        this.props.update(data, this.state.api);
       }
 
     //  adding here the other methods post / put / delete :)

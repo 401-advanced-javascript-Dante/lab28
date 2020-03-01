@@ -1,13 +1,13 @@
-# LAB - Class 28
+# LAB - Class 29 & 30
 
-## Props and State
+## Routing and Component Composition
 
 ### Author: Abdul-rhman Al-harasis 
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-Dante/lab28/pull/1)
-- [ci/cd](https://github.com/401-advanced-javascript-Dante/lab28/actions/runs/45853368) (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-Dante/lab28/pull/2)
+- [ci/cd](https://github.com/401-advanced-javascript-Dante/lab28/pull/2/checks?check_run_id=477304690) (GitHub Actions)
 
 - [front-end application](https://401-advanced-javascript-dante.github.io/lab28/) (GitHub Pages)
 
