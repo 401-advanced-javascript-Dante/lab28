@@ -22,14 +22,19 @@ class Form extends React.Component {
       this.setState({ option });
     }
 
+
     handleSubmit = async (e) => {
+
       e.preventDefault();
-      
+      console.log('what ??');
+      this.props.loadingState();
       if(this.state.option === 'get'){
         let response = await fetch(this.state.api);
         let data = await response.json();
         this.props.update(data, this.state.api);
       }
+      this.props.loadingState();
+
 
     //  adding here the other methods post / put / delete :)
     }

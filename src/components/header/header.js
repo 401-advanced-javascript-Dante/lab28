@@ -3,26 +3,31 @@ import React from 'react' ;
 import {Link , NavLink} from 'react-router-dom';
 
 
-const Header = () => {
-  return (
-    <header>
-      <h1>RESTy</h1>
-      <nav>
-        <ul>
+class Header extends React.Component {
+
+  render(){
+
+
+    return (
+      <header>
+        <h1>RESTy</h1>
+        <nav>
+          <ul>
           
-          <li>
-            <Link to="/">Home</Link>
-          </li>
+            <li>
+              <Link to="/lab28" onClick={this.props.reset}>Home</Link>
+            </li>
 
-          <li>
-            <NavLink to="/history" >History</NavLink>
-          </li>
+            <li>
+              <NavLink to="/history" >History</NavLink>
+            </li>
 
-        </ul>
-      </nav>
-    </header>
-  );
-};
+          </ul>
+        </nav>
+      </header>
+    );
+  }
+}
   
 
 export default Header ;
